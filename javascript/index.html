@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript DOM Manipulation</title>
+
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+
+    header,
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    main {
+      margin-top: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: #007bff;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #container {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Javascript DOM Manipulation</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="dynamic-text">This text will change!</p>
+      <button id="change-text-btn">Change Text</button>
+    </section>
+
+    <section>
+      <button id="change-style-btn">Change Style</button>
+    </section>
+
+    <section>
+      <button id="toggle-element-btn">Add/Remove Element</button>
+      <div id="container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 salie</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

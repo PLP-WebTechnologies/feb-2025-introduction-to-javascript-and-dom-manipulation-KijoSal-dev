@@ -1,0 +1,23 @@
+{
+  "name": "feb-2025-introduction-to-javascript-and-dom-manipulation-kijosal-dev",
+  "version": "1.0.0",
+  "description": "Write basic JavaScript functions.\r Manipulate the DOM dynamically.\r Respond to user interactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-javascript-and-dom-manipulation-KijoSal-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-javascript-and-dom-manipulation-KijoSal-dev/issues"
+  },
+  "homepage": "https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-javascript-and-dom-manipulation-KijoSal-dev#readme",
+  "dependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
